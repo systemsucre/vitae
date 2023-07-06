@@ -12,12 +12,10 @@
             padding: 0;
         }
 
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            background-color: #fff;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        .container_ {
+            width: 100%;
             padding: 20px;
+            margin: 20px;
         }
 
         .header {
@@ -43,18 +41,19 @@
 
         .section h2 {
             color: #333;
-            font-size: 20px;
+            font-size: 25px;
             margin-bottom: 10px;
         }
 
         .section p {
             color: #555;
             margin: 0;
+            font-size: 20px;
         }
 
         .section h3 {
             color: rgb(110, 109, 109);
-            font-size: 12px;
+            font-size: 13px;
             margin: 0;
         }
 
@@ -68,13 +67,59 @@
             color: #555;
             margin-bottom: 5px;
         }
+
+
+        @media only screen and (min-width: 450px) {
+
+            .header h1 {
+                font-size: 40px;
+            }
+
+            .header h4 {
+                font-size: 25px;
+            }
+
+            .section h2 {
+                font-size: 20px;
+            }
+
+            .section h3 {
+                font-size: 18px;
+            }
+
+            .section p {
+                font-size: 13px;
+            }
+        }
+
+        @media only screen and (min-width: 280px) {
+            .section p {
+                font-size: 25px;
+            }
+
+            .header h1 {
+                font-size: 35px;
+            }
+
+            .header h4 {
+                font-size: 20px;
+            }
+
+            .section h2 {
+                font-size: 20px;
+            }
+
+            .section h3 {
+                font-size: 18px;
+            }
+        }
     </style>
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
 
 <body>
-    <div class="container">
+    <div class="container_">
         <div class="header">
             <h1>Gustavo Aguilar Torres</h1>
             <h4>Ingeniero de Sistemas</h4>
@@ -120,7 +165,7 @@
             <ul>
                 <li>
                     <p><strong>Ingeniería de Sistemas</strong></p>
-                    <p>Universidad: MAYOR REAL DE SAN FRANCISCO XAVIER DE CHUQUISACA</p>
+                    <p>Universidad: MAYOR REAL y PONTIFICIA DE SAN FRANCISCO XAVIER DE CHUQUISACA</p>
                     <p>Año de graduación: 2023</p>
                 </li>
                 <li>
